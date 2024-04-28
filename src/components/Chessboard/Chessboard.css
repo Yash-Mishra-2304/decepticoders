@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set the height of the body to the full viewport height */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #202020; /* Set the background color for the entire page */
+     transform: rotate(45deg); 
+
+  }
+
+#chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-columns: repeat(8, 50px);
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
